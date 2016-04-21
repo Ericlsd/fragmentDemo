@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="55dp"
+    android:background="@drawable/bottom_bar"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/id_tab_weixin"
+        style="@style/main_tab_layout" >
+
+        <ImageView
+            android:id="@+id/id_tab_weixin_img"
+            style="@style/main_tab_img"
+            android:src="@drawable/tab_weixin_pressed" />
+
+        <TextView
+            android:id="@+id/id_tab_weixin_tv"
+            style="@style/main_tab_text"
+            android:text="微信" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/id_tab_frd"
+        style="@style/main_tab_layout" >
+
+        <ImageView
+            android:id="@+id/id_tab_frd_img"
+            style="@style/main_tab_img"
+            android:src="@drawable/tab_find_frd_normal" />
+
+        <TextView
+            android:id="@+id/id_tab_frd_tv"
+            style="@style/main_tab_text"
+            android:text="朋友" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/id_tab_address"
+        style="@style/main_tab_layout" >
+
+        <ImageView
+            android:id="@+id/id_tab_address_img"
+            style="@style/main_tab_img"
+            android:src="@drawable/tab_address_normal" />
+
+        <TextView
+            android:id="@+id/id_tab_address_tv"
+            style="@style/main_tab_text"
+            android:text="通讯录" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/id_tab_settings"
+        style="@style/main_tab_layout" >
+
+        <ImageView
+            android:id="@+id/id_tab_settings_img"
+            style="@style/main_tab_img"
+            android:src="@drawable/tab_settings_normal" />
+
+        <TextView
+            android:id="@+id/id_tab_settings_tv"
+            style="@style/main_tab_text"
+            android:text="设置" />
+    </LinearLayout>
+
+</LinearLayout>
